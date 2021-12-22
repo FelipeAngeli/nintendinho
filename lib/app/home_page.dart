@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'components/lamp/lamp_left.dart';
-import 'components/lamp/lamp_right.dart';
-import 'components/logo/logo_screen.dart';
-import 'components/screen.dart';
-import 'components/side_widget.dart';
-import 'keyboard/keyboard_left.dart';
-import 'keyboard/keyboard_right.dart';
+import '../app/components/keyboard/keyboard_left.dart';
+import '../app/components/keyboard/keyboard_right.dart';
+import '../app/components/keyboard/side_widget.dart';
+import '../app/components/screen/lamp/lamp_left.dart';
+import '../app/components/screen/lamp/lamp_right.dart';
+import '../app/components/screen/logo/logo_screen.dart';
+import '../app/components/screen/screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -87,31 +87,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-//  Row(
-//               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//               children: [
-//                 SideWidget(
-//                   width: size.width * 0.32,
-//                   height: size.height * 0.38,
-//                   side: Side.left,
-//                   child: const KeyboardLeft(),
-//                 ),
-//                 SideWidget(
-//                   width: size.width * 0.32,
-//                   height: size.height * 0.38,
-//                   side: Side.right,
-//                   child: const KeyboardRight(),
-//                 ),
-//               ],
-//             ),

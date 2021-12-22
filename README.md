@@ -1,6 +1,6 @@
-# nintendinho
+# NintendoSwitchUi
 
-A new Flutter project.
+Projeto em Flutter, criação da tela do Nintendo switch
 
 ## Getting Started
 
@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+ <img src="imagem/mobile.png" width="350" title="Versão Mobile">
+ <img src="imagem/tablet.png" width="350" title="Versão Tablet">

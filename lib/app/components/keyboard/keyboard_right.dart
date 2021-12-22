@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:nintendinho/keyboard/buttons/home_button.dart';
 import 'buttons/big_button.dart';
 import 'buttons/button_group.dart';
+import 'buttons/home_button.dart';
 import 'buttons/plus_button.dart';
-import 'refatora/buttons/arrow_widget.dart';
-import 'refatora/buttons/button_theme.dart';
-import 'refatora/buttons/letter_widget.dart';
+import 'buttons/arrow_widget.dart';
+import 'buttons/button_theme.dart';
+import 'buttons/letter_widget.dart';
 
 class KeyboardRight extends StatefulWidget {
   const KeyboardRight({Key? key}) : super(key: key);

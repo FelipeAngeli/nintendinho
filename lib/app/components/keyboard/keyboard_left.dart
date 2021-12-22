@@ -5,8 +5,8 @@ import 'buttons/button_group.dart';
 import 'buttons/minus_button.dart';
 
 import 'buttons/sound_button.dart';
-import 'refatora/buttons/arrow_widget.dart';
-import 'refatora/buttons/button_theme.dart';
+import 'buttons/arrow_widget.dart';
+import 'buttons/button_theme.dart';
 
 class KeyboardLeft extends StatelessWidget {
   const KeyboardLeft({Key? key}) : super(key: key);

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nintendinho/keyboard/refatora/buttons/arrow_widget.dart';
+
+import 'arrow_widget.dart';
 
 class ButtTheme extends StatelessWidget {
   final Color darkerColor;
